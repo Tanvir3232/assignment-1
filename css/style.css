@@ -79,7 +79,7 @@
 
 /* My plans Section Styles */
 .my-plans{
-    margin:200px 200px;
+    margin:200px 200px 100px;
     text-align: center;
 }
 .my-plans h2{
@@ -98,4 +98,27 @@
 .plan h3{
     padding: 10px 0px 10px 0px;
     
+}
+/* Second banner section */
+.second-banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.call-banner{
+    height: 200px;
+    width: 62%;
+    background-image: url("../images/gradient2.png"),url(../images/watch.png),linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.1));
+    border-radius: 10px;
+    background-position: center, left;
+    background-blend-mode: overlay;
+    color: white;
+    align-items: center;
+}
+.call-banner-info{
+    padding: 40px;
+    display: block;
+}
+.call-banner-info h1{
+    margin-bottom: 10px;
 }
