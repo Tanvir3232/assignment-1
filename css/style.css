@@ -53,6 +53,7 @@
     height: 60vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 100px;
 }
 .failure-details{
@@ -74,4 +75,27 @@
 }
 .failure-details ul li i{
     color: #01a841d0;
+}
+
+/* My plans Section Styles */
+.my-plans{
+    margin:200px 200px;
+    text-align: center;
+}
+.my-plans h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.plans{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    
+}
+.plan{
+    padding: 20px;
+}
+.plan h3{
+    padding: 10px 0px 10px 0px;
+    
 }
