@@ -99,6 +99,26 @@
     padding: 10px 0px 10px 0px;
     
 }
+/* My education section */
+.my-education{
+    margin:200px 200px 100px;
+}
+.my-education h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.education-boxs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.education-box{
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px black;
+
+}
 /* Second banner section */
 .second-banner{
     display: flex;
